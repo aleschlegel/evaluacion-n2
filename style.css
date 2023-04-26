@@ -17,7 +17,9 @@ body {
 }
 
 body.portada{
-    background:var(--fondo) url('images/fondo2.jpg') no-repeat;
+    background:var(--fondo);
+    background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.1)), url('images/fondo2.jpg');
+    background-repeat: no-repeat;
     background-size:cover;
 }
 
